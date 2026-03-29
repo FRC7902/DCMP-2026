@@ -16,4 +16,13 @@ public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+  public static class IndexerConstants {
+    public static final int MOTOR_CAN_ID = 19;
+
+    public static final int MOTOR_STATOR_CURRENT_LIMIT = 40;
+    public static final int MOTOR_SUPPLY_CURRENT_LIMIT = 40;
+
+    public static final double INDEXER_FULL_SPEED = 1; // TODO
+    public static final double INDEXER_HALF_SPEED = 0; // TODO
+  }
 }
