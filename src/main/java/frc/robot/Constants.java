@@ -32,4 +32,8 @@ public final class Constants {
   public static class OperatorConstants {
     public static int DRIVER_PORT = 0;
   }
+
+  public static Mode getMode() {
+    return currentMode;
+  }
 }
